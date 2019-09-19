@@ -16,68 +16,68 @@ body {
     justify-content: space-between;
 }
 
-.container .title {
+.title {
     display: flex;
     justify-content: center;
     background: rgb(42, 160, 42);
 }
-.container .title h1 {
+.title h1 {
     color: white;
     font-weight: 600;
     font-size: 1.2rem;
 }
 
-.container .restaurants {
+.restaurants {
     border: 1px solid rgb(214, 214, 214);
     flex-basis: 85%;
     overflow: scroll;
     overflow-x: hidden;
 }
 
-.container .restaurants .restaurant {
+.restaurant {
     border-bottom: 1px solid rgb(214, 214, 214);
     display: flex;
     align-items: center;
     padding: 15px 10px;
 }
 
-.container .restaurants .restaurant .restImg {
+.restImg {
     border-radius: 2px;
     margin-right: 5px;
     width: 35%;
     overflow: hidden;
 }
 
-.container .restaurants .restaurant .restImg img {  width: 100%; }
+.restImg img {  width: 100%; }
 
-.container .restaurants .restaurant .restDesc {
+.restDesc {
     width: 65%;
     margin: 0 10px;
 }
 
-.container .restaurants .restaurant .restDesc .restName {
+.restName {
     font-weight: 400;
     color: rgb(43, 43, 43);
     margin: 0;
 }
 
-.container .restaurants .restaurant .restDesc .reviews {
+.restDesc .reviews {
     display: block;
     font-size: 0.8rem;
     margin: 5px 0;
 }
-.container .restaurants .restaurant .restDesc .reviews .icon-star-full {
+.icon-star-full {
     color: rgb(42, 160, 42);
 }
 
-.container .nav {
+.nav {
     display: flex;
     justify-content: space-around;
     background-color: rgb(221, 221, 221);
     padding: 10px 0;
 }
 
-.container .nav a {
+.nav a {
     text-decoration: none;
     color: rgb(160, 160, 160);
 }
